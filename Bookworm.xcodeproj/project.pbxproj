@@ -14,10 +14,14 @@
 		9946A97C23DA41C700E4EEDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9946A97B23DA41C700E4EEDD /* Assets.xcassets */; };
 		9946A97F23DA41C700E4EEDD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9946A97E23DA41C700E4EEDD /* Preview Assets.xcassets */; };
 		9946A98223DA41C700E4EEDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9946A98023DA41C700E4EEDD /* LaunchScreen.storyboard */; };
+		9946A98A23DA440400E4EEDD /* AddBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9946A98923DA440400E4EEDD /* AddBook.swift */; };
+		994D629023DB1C5B004F8146 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994D628F23DB1C5A004F8146 /* RatingView.swift */; };
+		994D629223DB2339004F8146 /* EmojiRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994D629123DB2339004F8146 /* EmojiRatingView.swift */; };
+		99D28EDF23DB6E7000311F31 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D28EDE23DB6E7000311F31 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9946A96F23DA41B200E4EEDD /* Project 11.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project 11.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9946A96F23DA41B200E4EEDD /* Bookworm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bookworm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9946A97223DA41B200E4EEDD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9946A97423DA41B200E4EEDD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		9946A97723DA41B200E4EEDD /* Project_11.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Project_11.xcdatamodel; sourceTree = "<group>"; };
@@ -26,6 +30,10 @@
 		9946A97E23DA41C700E4EEDD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9946A98123DA41C700E4EEDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9946A98323DA41C700E4EEDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9946A98923DA440400E4EEDD /* AddBook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBook.swift; sourceTree = "<group>"; };
+		994D628F23DB1C5A004F8146 /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		994D629123DB2339004F8146 /* EmojiRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiRatingView.swift; sourceTree = "<group>"; };
+		99D28EDE23DB6E7000311F31 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +58,7 @@
 		9946A97023DA41B200E4EEDD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9946A96F23DA41B200E4EEDD /* Project 11.app */,
+				9946A96F23DA41B200E4EEDD /* Bookworm.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -61,6 +69,10 @@
 				9946A97223DA41B200E4EEDD /* AppDelegate.swift */,
 				9946A97423DA41B200E4EEDD /* SceneDelegate.swift */,
 				9946A97923DA41B200E4EEDD /* ContentView.swift */,
+				99D28EDE23DB6E7000311F31 /* DetailView.swift */,
+				9946A98923DA440400E4EEDD /* AddBook.swift */,
+				994D628F23DB1C5A004F8146 /* RatingView.swift */,
+				994D629123DB2339004F8146 /* EmojiRatingView.swift */,
 				9946A97B23DA41C700E4EEDD /* Assets.xcassets */,
 				9946A98023DA41C700E4EEDD /* LaunchScreen.storyboard */,
 				9946A98323DA41C700E4EEDD /* Info.plist */,
@@ -81,9 +93,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9946A96E23DA41B200E4EEDD /* Project 11 */ = {
+		9946A96E23DA41B200E4EEDD /* Bookworm */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9946A98623DA41C700E4EEDD /* Build configuration list for PBXNativeTarget "Project 11" */;
+			buildConfigurationList = 9946A98623DA41C700E4EEDD /* Build configuration list for PBXNativeTarget "Bookworm" */;
 			buildPhases = (
 				9946A96B23DA41B200E4EEDD /* Sources */,
 				9946A96C23DA41B200E4EEDD /* Frameworks */,
@@ -93,9 +105,9 @@
 			);
 			dependencies = (
 			);
-			name = "Project 11";
+			name = Bookworm;
 			productName = "Project 11";
-			productReference = 9946A96F23DA41B200E4EEDD /* Project 11.app */;
+			productReference = 9946A96F23DA41B200E4EEDD /* Bookworm.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -105,7 +117,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1130;
-				LastUpgradeCheck = 1130;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = "Makwan BK";
 				TargetAttributes = {
 					9946A96E23DA41B200E4EEDD = {
@@ -113,7 +125,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9946A96A23DA41B200E4EEDD /* Build configuration list for PBXProject "Project 11" */;
+			buildConfigurationList = 9946A96A23DA41B200E4EEDD /* Build configuration list for PBXProject "Bookworm" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -126,7 +138,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9946A96E23DA41B200E4EEDD /* Project 11 */,
+				9946A96E23DA41B200E4EEDD /* Bookworm */,
 			);
 		};
 /* End PBXProject section */
@@ -150,9 +162,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				9946A97323DA41B200E4EEDD /* AppDelegate.swift in Sources */,
+				99D28EDF23DB6E7000311F31 /* DetailView.swift in Sources */,
 				9946A97523DA41B200E4EEDD /* SceneDelegate.swift in Sources */,
+				994D629223DB2339004F8146 /* EmojiRatingView.swift in Sources */,
 				9946A97A23DA41B200E4EEDD /* ContentView.swift in Sources */,
+				994D629023DB1C5B004F8146 /* RatingView.swift in Sources */,
 				9946A97823DA41B200E4EEDD /* Project_11.xcdatamodeld in Sources */,
+				9946A98A23DA440400E4EEDD /* AddBook.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,6 +212,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -256,6 +273,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -293,11 +311,12 @@
 				DEVELOPMENT_TEAM = 5Z5FL8L65S;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Project 11/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "net.kitn.Project-11";
+				PRODUCT_BUNDLE_IDENTIFIER = com.makwanbk.Bookworm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -313,11 +332,12 @@
 				DEVELOPMENT_TEAM = 5Z5FL8L65S;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Project 11/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "net.kitn.Project-11";
+				PRODUCT_BUNDLE_IDENTIFIER = com.makwanbk.Bookworm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -327,7 +347,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9946A96A23DA41B200E4EEDD /* Build configuration list for PBXProject "Project 11" */ = {
+		9946A96A23DA41B200E4EEDD /* Build configuration list for PBXProject "Bookworm" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9946A98423DA41C700E4EEDD /* Debug */,
@@ -336,7 +356,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9946A98623DA41C700E4EEDD /* Build configuration list for PBXNativeTarget "Project 11" */ = {
+		9946A98623DA41C700E4EEDD /* Build configuration list for PBXNativeTarget "Bookworm" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9946A98723DA41C700E4EEDD /* Debug */,
