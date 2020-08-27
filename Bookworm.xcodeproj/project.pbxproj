@@ -50,7 +50,7 @@
 		9946A96623DA41B200E4EEDD = {
 			isa = PBXGroup;
 			children = (
-				9946A97123DA41B200E4EEDD /* Project 11 */,
+				9946A97123DA41B200E4EEDD /* Bookworm */,
 				9946A97023DA41B200E4EEDD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -63,7 +63,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9946A97123DA41B200E4EEDD /* Project 11 */ = {
+		9946A97123DA41B200E4EEDD /* Bookworm */ = {
 			isa = PBXGroup;
 			children = (
 				9946A97223DA41B200E4EEDD /* AppDelegate.swift */,
@@ -79,7 +79,7 @@
 				9946A97623DA41B200E4EEDD /* Project_11.xcdatamodeld */,
 				9946A97D23DA41C700E4EEDD /* Preview Content */,
 			);
-			path = "Project 11";
+			path = Bookworm;
 			sourceTree = "<group>";
 		};
 		9946A97D23DA41C700E4EEDD /* Preview Content */ = {
